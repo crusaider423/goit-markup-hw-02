@@ -184,6 +184,7 @@ a {
   font-weight: 500;
   line-height: 1.5; /* 24/16 */
   letter-spacing: 0.04; /* 0.64/16 */
+  cursor: pointer;
 }
 .filter-button:hover,
 .filter-button:focus {
