@@ -143,9 +143,9 @@ body {
   text-transform: capitalize;
 }
 .team-list {
- 
 }
-.team-list-item { background-color: var(--bg_page-white);
+.team-list-item {
+  background-color: var(--bg_page-white);
 }
 .team-subtitle {
   color: var(--navi_blue);
@@ -158,7 +158,6 @@ body {
 .team-text {
   text-align: center;
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5; /* 24/16 */
   letter-spacing: 0.02em; /* 0.32/16 */
 }
@@ -174,7 +173,6 @@ body {
 .footer-text {
   color: var(--cloud, #f4f4fd);
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5; /* 24/16 */
   letter-spacing: 0.02em; /* 0.32/16 */
 }
