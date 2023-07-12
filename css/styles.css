@@ -44,6 +44,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.nav-list-ref:hover,
+.nav-list-ref:focus {
+  color: var(--pressed_state-ocean);
+}
 .address {
   font-style: normal;
 }
@@ -76,14 +80,14 @@ body {
   letter-spacing: 0.02em; /* 1.12/56 */
 }
 .herro-btn {
-  font-family: inherit;
+  font-family: "Roboto", sans-serif;
   background: var(--iris, #4d5ae5);
   color: var(--white, #fff);
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5; /* 24/16 */
   letter-spacing: 0.04em; /* 0.64/16 */
+  cursor: pointer;
 }
 .herro-btn:hover,
 .herro-btn:focus {
@@ -104,14 +108,14 @@ body {
   letter-spacing: 0.02em; /* 0.4/20 */
 }
 .features-text {
-   font-size: 16px;
+  font-size: 16px;
   line-height: 1.5; /* 24/16 */
   letter-spacing: 0.02em; /* 0.32/16 */
 }
 /** what are we doing */
-.doing {
+.work {
 }
-.doing-title {
+.work-title {
   color: var(--navi_blue);
   font-size: 36px;
   font-weight: 700;
@@ -126,10 +130,11 @@ body {
 }
 /** our team */
 .team {
+  background-color: var(--cloud);
 }
 .team-title {
   color: var(--navi_blue);
-  
+
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -138,8 +143,9 @@ body {
   text-transform: capitalize;
 }
 .team-list {
+ 
 }
-.team-list-item {
+.team-list-item { background-color: var(--bg_page-white);
 }
 .team-subtitle {
   color: var(--navi_blue);
@@ -147,10 +153,10 @@ body {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2em; /* 24/20 */
-  letter-spacing: 0.02; /* 0.4/20 */
+  letter-spacing: 0.02em; /* 0.4/20 */
 }
 .team-text {
-    text-align: center;
+  text-align: center;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5; /* 24/16 */
@@ -162,7 +168,7 @@ body {
 }
 .logo {
 }
-.footer .logo-span{
+.footer .logo-span {
   color: var(--cloud);
 }
 .footer-text {
@@ -182,7 +188,7 @@ body {
 .filter-list-item {
 }
 .filter-button {
-    border: 1px solid var(--cornflower, #e7e9fc);
+  border: 1px solid var(--cornflower, #e7e9fc);
   background: var(--cloud, #f4f4fd);
 
   color: var(--iris, #4d5ae5);
@@ -205,7 +211,7 @@ body {
 }
 .gallery-list-item {
 }
-.gallery-ref{
+.gallery-ref {
 }
 .gallery-subtitle {
   color: var(--navi_blue);
@@ -215,7 +221,7 @@ body {
   letter-spacing: 0.02em; /* 0.4/20 */
 }
 .gallery-text {
-    font-size: 16px;
+  font-size: 16px;
   line-height: 1.5; /* 24/16 */
   letter-spacing: 0.02em; /* 0.32/16 */
 }
